@@ -26,7 +26,7 @@ const Navbar = () => {
             }}
         >
             <div className='inner'>
-                <a href="#Hero1" className='logo'>QuangThi  |  ĐồngChíMèo</a>
+                <a href="#Hero1" className='logo'>Quang Thi</a>
 
                 <nav className='desktop'>
                     <ul>

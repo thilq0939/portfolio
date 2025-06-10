@@ -69,19 +69,21 @@ const navLinks = [
   
   const abilities = [
     {
-      imgPath: "./images/seo.png",
-      title: "Quality Focus",
-      desc: "Delivering high-quality results while maintaining attention to every detail.",
+      imgPath: "./images/school.png",
+      title: "Education",
+      desc: `Ho Chi Minh City University of Transport 
+Major in Information Technology.`,
     },
     {
-      imgPath: "./images/chat.png",
-      title: "Reliable Communication",
-      desc: "Keeping you updated at every step to ensure transparency and clarity.",
+      imgPath: "./images/house.png",
+      title: "Hometown",
+      desc: "Khanh Hoa, Vietnam.",
     },
     {
-      imgPath: "./images/time.png",
-      title: "On-Time Delivery",
-      desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+      imgPath: "./images/profile.png",
+      title: "About Me",
+      desc: `Gender: Male | Date of birth: 10/09/2002.
+Phone number: 0939909393 | Email: quangthi2729@gmail.com.`,
     },
   ];
   
@@ -102,7 +104,7 @@ const navLinks = [
   
   const techStackIcons = [
     {
-      name: "React Developer",
+      name: "Frontend Developer",
       modelPath: "./models/react_logo-transformed.glb",
       scale: 1,
       rotation: [0, 0, 0],
@@ -123,9 +125,8 @@ const navLinks = [
   const expCards = [
     {
       review:
-        "I brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "./images/exp1.png",
-      logoPath: "./images/logo1.png",
+        "React, HTML, CSS, JavaScript, Tailwind CSS",
+      logoPath: "./images/user-experience.png",
       title: "Frontend Developer",
       date: "January 2025 - Present",
       responsibilities: [
@@ -136,9 +137,8 @@ const navLinks = [
     },
     {
       review:
-        "I'm contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-      imgPath: "./images/exp2.png",
-      logoPath: "./images/logo2.png",
+        "Java, MySQL, Spring Framework, Hibernate, JWT, RESTful API, Git, PostMan",
+      logoPath: "./images/coding.png",
       title: "Full Stack Developer",
       date: "January 2025 - Present",
       responsibilities: [

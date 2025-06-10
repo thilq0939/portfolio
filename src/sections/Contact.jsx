@@ -89,6 +89,7 @@ const Contact = () => {
                     placeholder="How can I help you?"
                     rows="5"
                     required
+                    className="h-66"
                   />
                 </div>
 
@@ -107,8 +108,9 @@ const Contact = () => {
             </div>
           </div>
           <div className="xl:col-span-7 min-h-96">
-            <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
-              <ContactExperience />
+            <div className="bg-[#cd7c2e] w-full h-full rounded-3xl overflow-hidden">
+              {/* <ContactExperience /> */}
+              <img src="./images/IMG_0910.webp" alt="contact" loading="lazy" />
             </div>
           </div>
         </div>
